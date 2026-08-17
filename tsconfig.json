@@ -1,0 +1,14 @@
+
+
+{
+  // Hello from 
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "esnext",
+    "types": [],
+    "declaration": true,
+    "strict": true,
+  }
+}
