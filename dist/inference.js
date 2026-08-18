@@ -12,9 +12,9 @@ function add5(a, b) {
 console.log(add5(10, 5));
 // console.log(typeof add5(10,5));
 // This how we get the name that will be string
-function greet(name) {
+function greet11(name) {
     return name;
 }
-console.log(greet("Alex"));
+console.log(greet11("Alex"));
 // When we are having multiple objects then we write type
 let user;

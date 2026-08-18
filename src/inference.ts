@@ -18,11 +18,11 @@ console.log(add5(10,5));
 
 
 // This how we get the name that will be string
-function greet(name: string){
+function greet11(name: string){
     return name;
 }
 
-console.log(greet("Alex"));
+console.log(greet11("Alex"));
 
 
 
