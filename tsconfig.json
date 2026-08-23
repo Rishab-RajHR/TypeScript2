@@ -10,5 +10,6 @@
     "types": [],
     "declaration": true,
     "strict": true,
+    "experimentalDecorators": true
   }
 }
