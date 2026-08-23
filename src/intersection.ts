@@ -36,18 +36,18 @@
 // Interface 
 
 
-interface Person3 {
-    username: string
-}
+// interface Person3 {
+//     username: string
+// }
 
-interface Emp3 {
-   salary: number
-}
+// interface Emp3 {
+//    salary: number
+// }
 
-type Staff3 = Person3 & Emp3
+// type Staff3 = Person3 & Emp3
 
-let worker3 : Staff3 = {
-    username: "Alex",
-    salary: 40000
-}
-console.log(worker3);
+// let worker6 : Staff3 = {
+//     username: "Alex",
+//     salary: 40000
+// }
+// console.log(worker6);

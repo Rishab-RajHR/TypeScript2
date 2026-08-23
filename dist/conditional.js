@@ -18,9 +18,11 @@
 // type UserType<T> = T extends Admin ? "Admin User" : "Emp User"
 // type Result1 = UserType<Admin>
 // Return type through function
-function getUser() {
-    return {
-        name: "Alex",
-        age: 30
-    };
-}
+// function getUser(){
+//    return{
+//       name:"Alex",
+//       age: 30
+//   }
+// }
+// type GetUserType<T> = T extends (...args: any[]) => infer R ? R : never
+// type User2 = GetUserType< typeof getUser>;
