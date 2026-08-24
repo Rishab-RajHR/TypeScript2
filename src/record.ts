@@ -32,20 +32,20 @@
 
 
 
-type User = {
-    name: string;
-    age: number
-}
-type Users = Record<string,User>;
+// type User = {
+//     name: string;
+//     age: number
+// }
+// type Users = Record<string,User>;
 
-const users:Users = {
-     user1:{
-        name:'Alex',
-        age:34
-     },
-     user2:{
-        name:'Sham',
-        age:45
-     },
-}
-console.log(users)
+// const users:Users = {
+//      user1:{
+//         name:'Alex',
+//         age:34
+//      },
+//      user2:{
+//         name:'Sham',
+//         age:45
+//      },
+// }
+// console.log(users)

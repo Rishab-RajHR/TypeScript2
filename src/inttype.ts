@@ -20,18 +20,34 @@
 
 // type ID = string | number
 
+// type Admin = User & {
+//     role: string
+// }
 
+// type Add = (
+//     a:number,
+//     b:number
+// ) => number
 
 // Interface  (structure for function and object)
 
-interface Product {
-    title: string,
-    price: number
-}
+// interface Product {
+//     title: string,
+//     price: number
+// }
 
-let laptop: Product = {
-   title:"MacBook",
-   price: 12000
-}
+// let laptop: Product = {
+//    title:"MacBook",
+//    price: 12000
+// }
 
-console.log(laptop.title);
+// console.log(laptop.title);
+
+
+// interface User{
+//   userName:string
+// }
+
+// interface Admin extends User {
+//    role: string
+// }
