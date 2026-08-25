@@ -38,5 +38,9 @@
 
 
 
-let city1 = "Delhi"
-console.log(typeof city1);
+// let city1 = "Delhi"
+// console.log(typeof city1);
+
+
+
+// let salary2 : number = 45000;
